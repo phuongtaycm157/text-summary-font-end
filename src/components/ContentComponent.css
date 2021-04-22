@@ -1,0 +1,60 @@
+.main-content {
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.8); */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-content .input-content,
+.main-content .output-content {
+  width: 49%;
+  padding: 15px;
+  background-color: #dcf3fd;
+  border-radius: 5px;
+}
+.main-content .input-content .input-content-header,
+.main-content .input-content .input-content-header span,
+.main-content .input-content .input-content-header button,
+.main-content .output-content .output-content-header,
+.main-content .output-content .output-content-header span,
+.main-content .output-content .output-content-header button {
+  background-color: inherit;
+  color: #5a5a5a;
+}
+.main-content .input-content .input-content-header,
+.main-content .output-content .output-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content .input-content .input-content-header button,
+.main-content .output-content .output-content-header button {
+  border: none;
+  background-color: #d8584d;
+  color: white;
+  padding: 7px 17px;
+  border-radius: 5px;
+  /* box-shadow: 0 0 2px #c4c4c4; */
+}
+.main-content .input-content textarea,
+.main-content .output-content textarea {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #e6e0e0;
+  width: 100%;
+  margin-top: 15px;
+  padding: 7px;
+  font-weight: 300;
+  font-size: .9em;
+  height: 50vh;
+}
+.main-content .input-content textarea:focus,
+.main-content .output-content textarea:focus {
+  outline: none;
+}
+
